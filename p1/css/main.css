@@ -4,5 +4,27 @@ body {
 }
 .intro {
   height: 100vh;
-  background: linear-gradient (#49BEB7 #FF5959);
+  background: linear-gradient(#49BEB7 #FF5959);
+}
+h1 {
+    color: #3a2e39;
+    font-size:85px;
+text-transform: uppercase;
+}
+h2 {
+    color: #facf5a;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+p {
+   color: #085f63;
+   font-size: 90px;
+   font-family: "Snell Roundhand", bold, script;
+    letter-spacing: .4px;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #003366;
 }
