@@ -1,6 +1,6 @@
 body {
 
-  background: linear-gradient(#49BEB7 40%, #FF5959 20%);
+  background: linear-gradient(#49BEB7 30%, #FF5959 30%);
 }
 h1 {
     color: #3a2e39;
@@ -13,7 +13,7 @@ h2 {
     text-transform: uppercase;
 }
 p {
-   color: #085f63;
+   color: ##003366;
    font-size: 90px;
    font-family: "Snell Roundhand", bold, script;
     letter-spacing: .5px;
@@ -22,5 +22,5 @@ a {
   text-decoration: none;
 }
 a:link {
-  color: #003366;
+  color: #085f63;
 }
