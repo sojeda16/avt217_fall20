@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(100vh, #49BEB7, #FF5959);
+    background: linear-gradient(100vh, #49BEB7 30%, #FF5959 30%);
 }
 h1 {
     color: #3a2e39;
