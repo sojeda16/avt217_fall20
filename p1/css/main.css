@@ -1,6 +1,15 @@
+* {
+  maing: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
+  background-color: #000;
+}
+.intro {
+  height: 100vh;
 
-  background: linear-gradient(#49BEB7 30%, #FF5959 30%);
+  background: linear-gradient(#49BEB7, #FF5959);
 }
 h1 {
     color: #3a2e39;
