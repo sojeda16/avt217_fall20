@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-border-box;
+}
 body {
     background: linear-gradient(0.25turn, #49BEB7 30%, #FF5959 30%);
 }
