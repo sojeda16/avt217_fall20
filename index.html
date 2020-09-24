@@ -16,17 +16,41 @@
       <li><a href="p1/index.html">P1: Linking Narrative</a></li>
       <li><a href="e6/index.html">E6: Type on Screen 1</a><li>
       <section class="wrapper">
-        <svg id="svgCanvas" viewbox="0 0 2000 1000" preserveaspectratio="xMinYMin slice" width="100%" >
-            <g id="startGroup"></g>
+        #background {
+        	background: black url(../images/background.png) repeat 5% 5%;
+        	position: absolute;
+        	top: 0; left: 0; right: 0; bottom: 0;
+        	z-index: 100;
 
-            <g transform="translate(150, 150)">
-                <circle class="shooting-star"  r="1" fill="white" cx="0" cy"0" r="2" radius="125"></circle>
-            </g>
-            
-                    <span>Web Design</span>
-                    <br>
-                    <span>Stefy's Work</span>
-        </svg>
+        	-webkit-animation-name: STAR-MOVE;
+        	-webkit-animation-duration: 200s;
+        	-webkit-animation-timing-function: linear;
+        	-webkit-animation-iteration-count: infinite;
+        }
+
+        #midground {
+        	background: url(../images/midground.png) repeat 20% 20%;
+        	position: absolute;
+        	top: 0; left: 0; right: 0; bottom: 0;
+        	z-index: 200;
+
+        	-webkit-animation-name: STAR-MOVE;
+        	-webkit-animation-duration: 150s;
+        	-webkit-animation-timing-function: linear;
+        	-webkit-animation-iteration-count: infinite;
+        }
+
+        #foreground {
+        	background: url(../images/foreground.png) repeat 35% 35%;
+        	position: absolute;
+        	top: 0; left: 0; right: 0; bottom: 0;
+        	z-index: 300;
+
+        	-webkit-animation-name: STAR-MOVE;
+        	-webkit-animation-duration: 100s;
+        	-webkit-animation-timing-function: linear;
+        	-webkit-animation-iteration-count: infinite;
+        }
        </section>
     </ul>
   </body>
