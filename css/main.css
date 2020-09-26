@@ -589,3 +589,18 @@ html {
          transform: translateY(-2000px);
       }
  }
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #F7CD28;
+}
+a:visited {
+  color: #DDC4DD;
+}
+a:hover {
+  color: Grey;
+}
+a:active {
+  color: Grey
+}
