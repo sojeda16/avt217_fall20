@@ -1,0 +1,24 @@
+html{
+  background-color: #431039;
+
+}
+
+body {
+  background-color: #FFDFD3
+  magin: 2% 10% 0 10%
+  padding: 100px;
+}
+
+h1, h2, h4 {
+  font-family: 'Linden Hill', serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 65px;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
