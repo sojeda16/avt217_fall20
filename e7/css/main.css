@@ -5,7 +5,7 @@ html{
 
 body {
   background-color: #FFDFD3
-  magin: 2% 10% 0 10%
+  magin: 4% 15% 0 15%
   padding: 100px;
 }
 
@@ -21,4 +21,21 @@ h1 {
 
 h4 {
   text-align: center;
+
+}
+
+hr {
+  boarder:2px #FFDFD3
+  width: 250px;
+  align-content: center;
+  
+}
+
+ul {
+  line-height: 1.2;
+}
+
+p {
+  font-size: 20px;
+  text-align: align left;
 }
