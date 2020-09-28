@@ -22,10 +22,15 @@ h1 {
 h4 {
   text-align: center;
 
+}
+
+.sectiontwo{
+  padding: 15px 0 15px 0;
+}
+
 ul {
   font-family: 'Roboto', sans-serif;
   line-height: normal;
-}
 
 }
 
