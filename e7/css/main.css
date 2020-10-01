@@ -13,6 +13,8 @@ h1, h2, h4 {
   font-family: 'Linden Hill', serif;
   font-weight: bold;
   margin-top: 0;
+  margin-right: 10px;
+  margin-left: 10px;
   margin-bottom: 0;
   line-height: 1.5'
 }
