@@ -5,6 +5,7 @@ body {
 }
 ul {
   text-align: center;
+  position: center;
   margin: 35px;
 }
 head {
