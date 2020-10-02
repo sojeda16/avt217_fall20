@@ -616,3 +616,6 @@ a:hover {
 a:active {
   color: Grey
 }
+p {
+  text-align: center;
+}
