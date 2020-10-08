@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  magin: 0;
+}
+div {
+  background-color: navy;
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+  float: left;
+}
