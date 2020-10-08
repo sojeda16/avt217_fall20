@@ -25,7 +25,7 @@ main {
   height: 200px;
   margin: -5px;
   float: left;
-  opacity: .5
+  opacity: .5;
   transform: rotate(30deg);
 }
 .shape 1 {
