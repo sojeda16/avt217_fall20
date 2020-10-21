@@ -47,3 +47,48 @@ main {
   border-color: orange;
   float:left;
 }
+#p2 .shape5 {
+  background-color: #6a3a4f;
+}
+#p2 .shape6 {
+  background-color: #c77a8c;
+}
+#p2 .shape7 {
+  background-color: #745582;
+}
+#p2 .shape8 {
+  background-color: #dab6c2;
+}
+#p3 .shape9 {
+  background-color: #92A5C0;
+}
+#p3 .shape10 {
+  background-color: #5A86AB;
+  border-radius: 50%;
+  border: 20px solid;
+  border-color: #fffa86;
+}
+#p3 .shape11 {
+  background-color: #292B68;
+
+}
+
+#p4 .shape12 {
+  width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-top: t: 60px solid yellow;
+  border-left: 60px solid yellow;
+  border-bottom: 60px solid yellow;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+
+}
+#p5 .shape14 {
+  width: 80px;
+  height:80px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 navy;
+}
