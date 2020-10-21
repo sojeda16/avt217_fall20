@@ -1,30 +1,91 @@
-body {
-  font-family: 'Stardos Stencil', cursive;
 
+*{
+  box-sizing: border-box;
 }
-ul {
-  text-align: center;
-  position: center;
-  margin: 35px;
-}
-head {
-  color: white
-}
-
-h1{
-  color: Grey;
-  font-size: 120px;
-  text-align: center;
-
-}
-
 html {
   height: 100%;
   overflow: hidden;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-
+}
+body {
+  font-family: 'Stardos Stencil', cursive;
+  text-align: center;
 
 }
+li {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+ul {
+  list-style: none;
+  text-align: center;
+  position: center;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .col {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  header {
+    width: 90vw;
+  }
+  main {
+    width: 90vw;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+
+head {
+  color: white
+}
+
+header {
+  width: 75vw;
+  margin: 25px auto;
+  background-color: transparent;
+}
+main {
+  width: 75vw;
+  margin: 25px auto;
+  background-color: transparent;
+  display: flow-root;
+}
+.col {
+  width: 50%;
+  background-color: transparent;
+  float: left;
+}
+h1{
+
+  color: Grey;
+  font-size: 6rem;
+  text-align: center;
+  font-weight: 700;
+
+}
+h2{
+
+  color: Grey;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 700;
+
+}
+
 #title {
   position: absolute;
   top: 50%;
