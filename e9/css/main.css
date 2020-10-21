@@ -84,7 +84,14 @@ main {
   border-top-right-radius: 60px;
   border-bottom-left-radius: 60px;
   border-bottom-right-radius: 60px;
-
+}
+#p4 .shape13 {
+  background-color: yellow;
+  width: 50px;
+  height: 100px;
+  margin: 50px;
+  float: left;
+  transform: rotate(-180deg);
 }
 #p5 .shape14 {
   width: 80px;
