@@ -37,30 +37,13 @@ main {
   float: left;
   transform: rotate(-45deg);
 }
-#p1 .shape1 {
-  background-color: red;
+#p1 .shape4 {
+  background-color: green;
   width: 200px;
   height: 200px;
-  margin: 50px;
-  float: left;
-  opacity: .5;
-  border-radius: 50px;
-
-}
-#p1 .shape2 {
-  background-color: blue;
-  width: 100px;
-  height: 200px;
-  margin: -5px;
-  float: left;
-  opacity: .5;
-  transform: rotate(30deg);
-}
-#p1 .shape3 {
-  background-color: yellow;
-  width: 50px;
-  height: 200px;
-  margin: 50px;
-  float: left;
-  transform: rotate(-45deg);
+  margin: 5px -10px -10px -10px;
+  border-radius: 50%;
+  border: 20px solid;
+  border-color: orange;
+  float:left;
 }
