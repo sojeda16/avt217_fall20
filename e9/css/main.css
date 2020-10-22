@@ -62,11 +62,11 @@ main {
   border-bottom: 100px solid #745582;
 
 }
-#p2 .shape7 {
+#p2 .shape1 {
   background-color:;
   width: 0;
   height: 0;
-  margin: -15px -3.50px;
+  margin: -15px -9.5px;
   float: left;
   opacity: .3px;
   transform: skewX(25deg);
@@ -74,23 +74,53 @@ main {
   border-right: 50px solid transparent;
   border-bottom: 100px solid #dab6c2;
 }
+#p2 .shape2 {
+  background-color:;
+  width: 0px;
+  height: 0px;
+  margin -15px -9.5px;
+  float: left;
+  opacity: .8;
+  transform: rotate rotate(25deg);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #ffec9c;
+
+}
+
 #p3 .shape1 {
   background-color: #92A5C0;
+  width: 200px;
+  height: 400px;
+  margin: -20px -20px -20px -20px;
+  transform: skew(60deg);
+  opacity: .5px;
+  float: left;
 }
-#p3 .shape3 {
+#p3 .shape2 {
   background-color: #5A86AB;
-  border-radius: 50%;
-  border: 20px solid;
-  border-color: #fffa86;
+  width: 200px;
+  height: 400px;
+  margin: -20px -20px -20px -20px;
+  transform: skew(-60deg);
+  border: solid 5px navy;
+  opacity: .7px;
+  float: left;
 }
 #p3 .shape3 {
   background-color: #292B68;
-
+  width: 200px;
+  height: 400px;
+  margin: -20px -20px -20px -20px;
+  transform: skew(60deg);
+  opacity: .5px;
+  float: left;
 }
 
 #p4 .shape12 {
   width: 0px;
   height: 0px;
+  margin:-8px -7.5px;;
   border-right: 60px solid transparent;
   border-top: 60px solid yellow;
   border-left: 60px solid yellow;
@@ -104,6 +134,7 @@ main {
 #p4 .shape13 {
   width: 0px;
   height: 0px;
+  margin: -8px -7.5px;
   border-right: 60px solid transparent;
   border-top: 60px solid red;
   border-left: 60px solid red;
@@ -118,6 +149,7 @@ main {
 #p4 .shape14 {
   width: 0px;
   height: 0px;
+  margin: -8px -7.5px;
   border-right: 60px solid transparent;
   border-top: 60px solid blue;
   border-left: 60px solid blue;
@@ -128,21 +160,37 @@ main {
   border-bottom-right-radius: 60px;
   float: left;
 }
-#p4 .shape15 {
-  background-color: yellow;
-  width: 25px;
-  height: 50px;
-  margin: 36px;
-  border-radius: 20%;
-  border: 10px solid;
-  border-color: black;
+
+#p5 .shape1 {
+  background-color: #7c8e51;
+  width:100px;
+  height: 100px;
+  margin:-15px;
   float: left;
-  transform: rotate(-90deg);
+  opacity: .5;
+  transform: rotate(45deg);
+  border: 5px solid black;
+
 }
-#p5 .shape16 {
-  width:0px;
-  height: 0px;
-  border-top: 100px solid blue;
-  border-left: 100px solid transparent;
+#p5 .shape2 {
+  background-color: #800020;
+  width: 100px;
+  height: 100px;
+  margin: _15px 7.5px;
+  float: left;
+  opacity: .4;
+  transform: skew(-45deg);
+  border: 5px solid #384d47;
+}
+#p5 .shape3 {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  margin: -15px -3.25px;
+  float: left;
+  opacity: .5;
+  border: solid;
+
+
 
 }
