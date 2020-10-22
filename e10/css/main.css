@@ -5,8 +5,9 @@ body {
   margin: 0
 }
 .red, .black {
-  width: ;
-  height: ;
+  width: 100px;
+  height: 100px;
+  float: left;
 
 }
 .red {
