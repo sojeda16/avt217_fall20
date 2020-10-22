@@ -178,7 +178,6 @@ main {
   height: 100px;
   margin: _15px 7.5px;
   float: left;
-  opacity: .4;
   transform: skew(-45deg);
   border: 5px solid #384d47;
 }
