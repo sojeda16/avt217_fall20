@@ -12,11 +12,12 @@ main {
 
 #p1 .shape1 {
   background-color: red;
-  width: 200px;
+  width: 150px;
   height: 200px;
-  margin: 50px;
+  margin: -15px;
   float: left;
   opacity: .5;
+  border: 5px solid navy;
   border-radius: 50px;
 
 }
@@ -24,51 +25,65 @@ main {
   background-color: blue;
   width: 100px;
   height: 200px;
-  margin: -5px;
+  margin: -5px 5.5px;
   float: left;
-  opacity: .5;
   transform: rotate(30deg);
+  opacity: .5;
 }
 #p1 .shape3 {
   background-color: yellow;
   width: 50px;
   height: 200px;
-  margin: 50px;
+  margin: -15px -7.5px;
   float: left;
-  transform: rotate(-45deg);
+
 }
-#p1 .shape4 {
-  background-color: green;
-  width: 200px;
-  height: 200px;
-  margin: 5px -10px -10px -10px;
-  border-radius: 50%;
-  border: 20px solid;
-  border-color: orange;
-  float:left;
-}
-#p2 .shape5 {
+#p2 .shape1 {
   background-color: #6a3a4f;
+  width: 0px;
+  height: 0px;
+  margin: -15px -7.5px;
+  float:left;
+  opacity: .5;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #c77a8c;
 }
-#p2 .shape6 {
-  background-color: #c77a8c;
+#p2 .shape2 {
+  background-color:;
+  width: 0px;
+  height: 0px;
+  margin -15px -9.5px;
+  float: left;
+  opacity: .8;
+  transform: rotate rotate(25deg);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #745582;
+
 }
 #p2 .shape7 {
-  background-color: #745582;
+  background-color:;
+  width: 0;
+  height: 0;
+  margin: -15px -3.50px;
+  float: left;
+  opacity: .3px;
+  transform: skewX(25deg);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #dab6c2;
 }
-#p2 .shape8 {
-  background-color: #dab6c2;
-}
-#p3 .shape9 {
+#p3 .shape1 {
   background-color: #92A5C0;
 }
-#p3 .shape10 {
+#p3 .shape3 {
   background-color: #5A86AB;
   border-radius: 50%;
   border: 20px solid;
   border-color: #fffa86;
 }
-#p3 .shape11 {
+#p3 .shape3 {
   background-color: #292B68;
 
 }
@@ -77,25 +92,57 @@ main {
   width: 0px;
   height: 0px;
   border-right: 60px solid transparent;
-  border-top: t: 60px solid yellow;
+  border-top: 60px solid yellow;
   border-left: 60px solid yellow;
   border-bottom: 60px solid yellow;
   border-top-left-radius: 60px;
   border-top-right-radius: 60px;
   border-bottom-left-radius: 60px;
   border-bottom-right-radius: 60px;
+  float: left;
 }
 #p4 .shape13 {
-  background-color: yellow;
-  width: 50px;
-  height: 100px;
-  margin: 50px;
+  width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-top: 60px solid red;
+  border-left: 60px solid red;
+  border-bottom: 60px solid red;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  opacity: .5;
   float: left;
-  transform: rotate(-180deg);
 }
-#p5 .shape14 {
-  width: 80px;
-  height:80px;
-  border-radius: 50%;
-  box-shadow: 15px 15px 0 0 navy;
+#p4 .shape14 {
+  width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-top: 60px solid blue;
+  border-left: 60px solid blue;
+  border-bottom: 60px solid blue;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  float: left;
+}
+#p4 .shape15 {
+  background-color: yellow;
+  width: 25px;
+  height: 50px;
+  margin: 36px;
+  border-radius: 20%;
+  border: 10px solid;
+  border-color: black;
+  float: left;
+  transform: rotate(-90deg);
+}
+#p5 .shape16 {
+  width:0px;
+  height: 0px;
+  border-top: 100px solid blue;
+  border-left: 100px solid transparent;
+
 }
