@@ -1,0 +1,17 @@
+* {
+  box-sixing: border-box;
+}
+body {
+  margin: 0
+}
+.red, .black {
+  width: ;
+  height: ;
+
+}
+.red {
+  background-color: tomato;
+}
+.black {
+  background-color: #333333;
+}
