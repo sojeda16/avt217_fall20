@@ -4,6 +4,7 @@
 body {
   margin: 0;
   overflow-x: hidden;
+  background-color: #4C3B71;
 }
 main {
   width: 130vw;
