@@ -61,7 +61,7 @@ body {
 /* blog layout */
 .holder {
   width:820px;
-  display: flow-root;;
+  display: flow-root;
   margin: 50px auto 0;
 }
 .head, .main, .links, .abajo, .divide {
@@ -77,14 +77,14 @@ body {
   background-color: #292B68;
   height: 480px;
   width: 630px;
-  margin-bottom: 25px auto;
+  margin-bottom: 15px;
 }
 .abajo {
   width: 640px;
   height: 50px;
   margin: 0px auto;
   border-color: #12142A;
-  border: 5px; 0px; solid transparent;
+  border: 5px; 0px; solid white;
   float: left;
 }
 .links {
@@ -96,7 +96,7 @@ body {
 .divide {
   height: 40px;
   width: 620px;
-  margin: 25px auto;
+  margin: 0px auto;
   background-color: #5A86AB;
   border: 5px solid #5A86AB;
 
