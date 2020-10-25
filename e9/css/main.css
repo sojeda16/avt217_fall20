@@ -190,7 +190,16 @@ main {
   float: left;
   opacity: .5;
   border: solid;
-
-
-
+}
+a:link {
+  color: #e7bb67;
+}
+a:hover {
+  color: #ad88b0;
+}
+a:visted {
+  color: #ad88b0;
+}
+a:active{
+  color: #e7bb67
 }
