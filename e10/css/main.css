@@ -96,7 +96,8 @@ body {
 .divide {
   height: 40px;
   width: 620px;
-  margin: 0px auto;
+  margin-top: -45px;
+  margin-bottom: 100px;
   background-color: #5A86AB;
   border: 5px solid #5A86AB;
 
