@@ -2,7 +2,8 @@
   box-sixing: border-box;
 }
 body {
-  margin: 0
+  margin: 0;
+  background-color: #92A5C0;
 }
 .board {
   width: 800px;
@@ -18,8 +19,42 @@ body {
   float: left;
 }
 .red {
-  background-color: tomato;
+  background-color: #292B68;
 }
 .black {
-  background-color: #333333;
+  background-color: #12142A;
+}
+/*column grid */
+.frame {
+  width: 750px;
+  display: flow-root;
+  margin: 50px auto 0;
+}
+.header, .mainbox, .column, .footer {
+  float: left;
+}
+.header {
+  background-color: #12142A;
+  height: 90px;
+  width: 900px;
+  margin-bottom: 10px;
+}
+.mainbox {
+  background-color: #5A86AB;
+  height: 20px;
+  width: 900px;
+  margin-bottom: 10px;
+}
+.column {
+  background-color: #292B68;
+  width: 293px;
+  height: 900px;
+  margin-right: 10px;
+}
+.footer {
+  background-color: #12142A;
+  height: 90px;
+  width: 900px;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
