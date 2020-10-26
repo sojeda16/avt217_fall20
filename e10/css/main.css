@@ -100,5 +100,39 @@ body {
   margin-bottom: 100px;
   background-color: #5A86AB;
   border: 5px solid #5A86AB;
+}
+/* tennis court */
+.tennis {
+  width: 646px;
+  display: flow-root;
+  margin: 50px auto 0px;
+}
+.lleft, .lright, .rectangulo, .court {
+  background-color: #12142A;
+}
+.lleft {
+  width: 80px;
+  height: 320px;
+  float: left;
+  margin: 1px 1px 1px 50px;
+}
+.lright {
+  width:80px;
+  height: 320px;
+  float: right;
+  margin: 1px 50px 1px 1px;
 
+}
+.rectangulo {
+  width: 382px;
+  height:128px;
+  float:left;
+  margin: 1px;
+  margin-top: 1px;
+}
+.court {
+  width: 190px;
+  height: 190px;
+  margin: 1px;
+  float: left;
 }
