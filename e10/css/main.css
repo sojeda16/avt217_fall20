@@ -136,3 +136,50 @@ body {
   margin: 1px;
   float: left;
 }
+/* california case */
+.case  {
+  width: 338px;
+  display: flow-root;
+  margin: 50px auto 0px;
+}
+.rectangle {
+  width: 40px;
+  height: 100px;
+  margin: 1px;
+  float: left;
+  background-color: #12142A
+}
+.shape1 {
+  width: 84px;
+  height: 304px;
+  float: right;
+  margin: 1px;
+  margin-bottom: 1px;
+  background-color: #12142A;
+}
+.shape2 {
+  width: 40px;
+  height: 202px;
+  float: left;
+  margin: 1px;
+  background-color: #12142A;
+}
+.shape3 {
+  width: 82px;
+  height: 202px;
+  float: left;
+  margin: 1px;
+  background-color: #12142A;
+}
+
+h1 {
+  font-size: 60px;
+  font-style: font-family: 'Stardos Stencil', cursive;
+  text-align: center;
+}
+ul {
+  font-size: 40px;
+  color: #e8daed;
+  font-family: 'Stardos Stencil', cursive;
+  text-align:center;
+  list-style: none;

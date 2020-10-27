@@ -191,6 +191,19 @@ main {
   opacity: .5;
   border: solid;
 }
+h1 {
+  font-size: 60px;
+  font-style: font-family: 'Stardos Stencil', cursive;
+  text-align: center;
+}
+ul {
+  font-size: 40px;
+  color: #e8daed;
+  font-family: 'Stardos Stencil', cursive;
+  text-align:center;
+  list-style: none;
+
+}
 a:link {
   color: #e7bb67;
 }

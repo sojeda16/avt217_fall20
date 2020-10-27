@@ -39,7 +39,7 @@ img {
   max-width: 100%;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1536px) {
   .col {
     width: 100%;
     margin-bottom: 50px;
@@ -54,7 +54,6 @@ img {
     font-size: 3rem;
   }
 }
-
 
 head {
   color: white
