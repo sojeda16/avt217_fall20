@@ -137,6 +137,9 @@ body {
   float: left;
 }
 /* california case */
+#container {
+  width: 100%
+}
 .case  {
   width: 338px;
   display: flow-root;
