@@ -1,0 +1,161 @@
+/*container holding image and text */
+.firstcontainer {
+  position: relative;
+  text-align: center;
+  max-width: 100%;
+}
+.secondcontainer {
+  position:relative;
+  text-align: center;
+  max-width: 100%;
+}
+.thirdcontainer {
+  position: relative;
+  text-align: center;
+  max-width: 100%;
+}
+.fourthcontainer {
+  position: relative;
+  text-align: center;
+  max-width: 100%;
+}
+.fifthcontainer {
+  position: relative;
+  text-align: center;
+  max-width: 100%;
+}
+.centered{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  font-family: 'New Peninim MT', sans-serif;
+  font-weight: bold;
+  font-size: 102px;
+  color: #EFE1E1;
+}
+h2 {
+  font-family: 'New Peninim MT', sans-serif;
+  font-weight: bold;
+  font-size: 106px;
+  color: #EFE1E1;
+}
+h3 {
+  font-family: 'New Peninim MT', sans-serif;
+  font-weight: bold;
+  font-size: 106px;
+  color: #EFE1E1;
+}
+h4 {
+  font-family: 'New Peninim MT', sans-serif;
+  font-size: 40px;
+  color: #EFE1E1;
+}
+h5 {
+  font-family: 'New Peninim MT', sans-serif;
+  font-size: 40px;
+  color: #EFE1E1;
+}
+h6 {
+  font-family: 'New Peninim MT', sans-serif;
+  font-size: 40px;
+  color: #EFE1E1;
+}
+p {
+  font-family: 'Sinhala MN', sans-serif;
+  font-size: 50px;
+  color: #EFE1E1;
+}
+p1 {
+  font-family: 'Sinhala MN', sans-serif;
+  font-size: 50px;
+  color: #EFE1E1;
+}
+body {
+  background-color: #5C2D2D;
+  overflow-x: hidden;
+  max-width: 100%;
+  max-height: 50%;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+  padding-left: -50px;
+  padding-bottom: 0px;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: #EFE1E1;
+}
+a:active {
+  color: #EFE1E1;
+  text-decoration: underline;
+}
+img {
+  max-width: 100%;
+  image-orientation: left;
+}
+
+.navigation {
+  width: 120%;
+  height: 100px;
+  border-color: #B27E7E;
+  margin: -10px;
+  flex-direction: row;
+  display: flex;
+}
+.logo {
+  display: inline-block;
+  width: 260px;
+  height: auto;
+  margin-right: 550px;
+  padding-left: 30px;
+}
+.navbox {
+  float: left;
+  background-color: #B27E7E;
+  text-align: center;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  width: 140px;
+  height: 30px;
+  margin-top: 25px;
+  font-family: 'Sinhala MN', sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+}
+#about {
+  float: left;
+  text-align: center;
+  padding-right: 25px;
+  padding-top: 6px;
+  padding-left: -3px;
+  padding-bottom: 9px;
+  border: 2px solid #B27E7E;
+  width: 143px;
+  height: 30px;
+  margin-top: -8px;
+  margin-left: -1px;
+}
+#about a {
+  color: white;
+  text-decoration: underline;
+}
+#about a:link {
+  color: white;
+  text-decoration: underline;
+}
+#about a:visited {
+  color: #EFE1E1;
+}
+#about a:active {
+  color: #EFE1E1;
+}
