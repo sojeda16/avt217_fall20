@@ -1,4 +1,9 @@
-/*container holding image and text */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
 .firstcontainer {
   position: relative;
   text-align: center;
