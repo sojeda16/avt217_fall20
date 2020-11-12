@@ -1,0 +1,39 @@
+8 {
+  box-sizing: border-box;
+}
+body {
+  margin:0
+}
+.main {
+  width: 950px;
+  background-color: lightgrey;
+  margin: 50px auto;
+  display: flow-root;
+}
+.header .footer {
+  width: 959px;
+/*  width: 100%; */
+height: 100px;
+float: left;
+background-color: darkred;
+margin: 25px 0;
+/*margin-top: 25px;
+margin-bottom: 25px;*/
+}
+.bar {
+  width: 950px;
+  /*  width: 100%; */
+  height: 25px;
+  float: left;
+  background-color: darkred;
+  margin: 0 0 25px;
+}
+.column {
+  width: 300px;
+  height: 600px;
+  float: left;
+  background-color: darkred;
+}
+.margins {
+  margin: 0 25px;
+}
