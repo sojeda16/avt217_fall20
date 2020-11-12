@@ -1,4 +1,6 @@
+@media screen and (max-width: 1586px) {
 
+}
 *{
   box-sizing: border-box;
 }
@@ -6,8 +8,6 @@ html {
   height: 100%;
   overflow: hidden;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-}
-
 }
 body {
   font-family: 'Stardos Stencil', cursive;
