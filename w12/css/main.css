@@ -15,8 +15,10 @@ main {
 footer {
   background-color:
 }
-.title {
+.title p {
   float: left;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 nav {
   float: right;
@@ -29,4 +31,26 @@ ul {
 li {
   float:left;
   margin-left: 25px;
+}
+.hero {
+  background: url(../img/foto.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 350px 100px;
+}
+
+.hero h1, .tagline {
+  text-align: center;
+}
+.hero h1 {
+  font-size: 6rem;
+  margin-bottom: 25px;
+}
+.row {
+  display: flow-root;
+  width: 80vw;
+  margin: 25px auto;
+}
+.col {
+  width: 50%;
+  float:left;
 }
