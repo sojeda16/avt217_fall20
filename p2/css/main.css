@@ -4,10 +4,7 @@
 
 body {
   background-color: #5C2D2D;
-  overflow-x: hidden;
-  max-width: 100%;
-  max-height: 50%;
-  margin: 0px;
+  margin: 0;
 }
 
 .firstcontainer {
@@ -60,19 +57,19 @@ body {
 h1 {
   font-family: 'New Peninim MT', sans-serif;
   font-weight: bold;
-  font-size: 102px;
+  font-size: 90px;
   color: #EFE1E1;
 }
 h2 {
   font-family: 'New Peninim MT', sans-serif;
   font-weight: bold;
-  font-size: 106px;
+  font-size: 96px;
   color: #EFE1E1;
 }
 h3 {
   font-family: 'New Peninim MT', sans-serif;
   font-weight: bold;
-  font-size: 106px;
+  font-size: 96px;
   color: #EFE1E1;
 }
 h4 {
@@ -92,7 +89,9 @@ h6 {
 }
 p {
   font-family: 'Sinhala MN', sans-serif;
-  font-size: 50px;
+  margin-right: -5px;
+  margin-left: 50px;
+  font-size: 40px;
   color: #EFE1E1;
 }
 p1 {
@@ -133,9 +132,9 @@ img {
 }
 .logo {
   display: inline-block;
-  width: 260px;
+  width: 150px;
   height: auto;
-  margin-right: 550px;
+  margin-right: 450px;
   padding-left: 30px;
 }
 .navbox {
@@ -189,3 +188,4 @@ img {
 #about a:active {
   color: #EFE1E1;
 }
+@media screen and (max-width: 1586px)
