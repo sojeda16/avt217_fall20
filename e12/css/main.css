@@ -4,11 +4,16 @@
 body {
   margin: 0;
   background-color: #6F8D6D;
+
 }
 header {
   display: flow-root;
   background-color: #6F8D6D;
   margin: 0;
+  background-image: url(../image/pp.png);
+  background-repeat: no-repeat;
+  margin: 100px;
+  padding: 212px 100px;
 
 }
 h1 {
@@ -17,7 +22,8 @@ h1 {
   font-size: 94px;
   color: #F0BD12;
   text-align: center;
-  padding-top: 1vw;
+  padding-top: .5vw;
+
 }
 h2 {
   font-family: News Gothic;
@@ -25,7 +31,6 @@ h2 {
   font-size: 62px;
   color: #F0BD12;
   text-align: center;
-  padding: .5vw;
 }
 h3 {
   font-family: News Gothic;
@@ -33,7 +38,8 @@ h3 {
   font-size: 39px;
   color: #124429;
   text-align: center;
-  padding: 3vw;
+  padding: .2vw;
+
 
 }
 p {
@@ -52,8 +58,4 @@ p {
 .text {
   padding-left: 2vw;
   padding-right: 2vw;
-}
-.pic1 {
-  background: url(../img/pp.png) repeat  top bottom;
-  background-size: cover;
 }
