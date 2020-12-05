@@ -28,22 +28,20 @@ body {
 .fourthcontainer {
   text-align: center;
   max-width: 100%;
-  background: url(../images/table2.jpg) no-repeat center center;
-  background-size: cover;
-  padding: 200px 0;
 }
 .fifthcontainer {
-  position: relative;
   text-align: center;
   width: 100%;
+  background: url(../images/table2.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 400px 0;
 }
 
-.centered{
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.sixthcontainer {
+  text-align: center;
+  max-width: 100%;
 }
+
 .footer {
   color: #EFE1E1;
   text-align: center;
@@ -54,6 +52,33 @@ body {
   width: 100%;
   display: flow-root;
   margin-bottom: 0px;
+}
+.first {
+  text-align: center;
+  max-width: 100%;
+  background: url(../images/condiments.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 200px 0;
+}
+.second {
+  text-align: center;
+  max-width: 100%;
+
+}
+.third {
+  text-align: center;
+  max-width: 100%;
+}
+.fourth {
+  text-align: center;
+  max-width: 100%;
+}
+.fifth {
+  text-align: center;
+  max-width: 100%;
+  background: url(../images/party.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 200px 0;
 }
 h1 {
   font-family: "New Peninim MT", sans-serif;
@@ -105,9 +130,16 @@ a:active {
   color: #EFE1E1;
   text-decoration: underline;
 }
-img {
-  max-width: 100%;
-  image-orientation: left;
+
+.column {
+  width: 33.33%;
+  float: left;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .navigation {
@@ -139,16 +171,7 @@ img {
   font-size: 25px;
   text-decoration: none;
 }
-.col {
-  width: 200px;
-  display: flow-root;
-  margin-left: 50px;
-  margin-right: 100px;
-  margin-top: 80px;
-  margin-bottom: -250px;
-  font-size: 20px;
-  color: black;
-}
+
 #about {
   float: left;
   text-align: center;
